@@ -1,0 +1,6 @@
+framework module KMAppBase {
+  umbrella header "KMAppBase.h"
+
+  export *
+  module * { export * }
+}

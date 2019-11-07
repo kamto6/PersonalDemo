@@ -1,0 +1,28 @@
+<!--交易配置-->
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!-- NSXMLParser 会报错-->
+
+<system>
+    <catalog name="Common" description="初始交易配置">
+        <item name="codeTest" value="1" description="做代码测试用" />
+        <item name="isTradePortNewStyle" value="1" description="交易站点列表cell新风格，1 是，0 否，1 的风格是带选择框的，0是默认前面带对勾，很早的配置，默认是1"/>
+        <item name="isRememberPasswordStyle" value="1" description="交易登录页面是否记住密码，1 是，0 否，默认是1" />
+        <item name="defaultOnLineTimeInterval" value="60" description="交易账户默认在线时间，0表示永久在线，默认是60"/>
+        <item name="isStoplossShowToastStyle" value="1" description="止损止盈是否本机修改是否取消回报改用toast提示，1 是，0 否，0 为顶部弹窗，默认为1" />
+        <item name="isShortLoginMark" value="1" description="登录参数loginMark变成手机号|设备号|UUID，去掉了macAddress，默认为1" />
+        <item name="isHomePageNeedSimuleTip" value="0" description="交易首页是否需要请退出仿真交易提示，1 是，0 否，注：中信建投需要，其他项目不需要" />
+        <item name="isStoplossRemoveExpiryDate" value="1" description="止损止盈去掉有效日期，1 是  0 否。默认是1" />
+        <item name="isExercisVirtualRealityValue" value ="0" description="期权列表虚实值，1，保存 0 去掉，默认是0" />
+        <item name="isBrokerageAgencyTradeParameters" value="1" description="浮盈算法加上经纪公司交易参数，1 是，0 否，默认是0" />
+        <item name="isNewVerion19UIStyle" value="1" description="1.9版本新页面风格，1 是，0 否，1 包含登录站点页面以及导航栏顶部账号信息" />
+        <item name="isLogsVcBottomTipView" value="1" description="日志页面底部提示，1 是，0 否，注：中信期货目前需要，默认是0" />
+        <item name="isFutureTradeCloudApp" value="0" description="是否为云版app，1 是，支持多个期货公司， 0 否，但单期货公司，期货公司之间有UI风格的异同" />
+        <item name="StoplossInstructionWebUrl" value="http://47.112.206.123:8080/qhhq/zszy/index.html" description="云止损止盈功能说明跳转url" />
+        <item name="isLoginDataCollect" value="1" description="登录是否启用信息采集看穿式监管，1 是，0或空，否" />
+        <item name="isNewLoginProcess" value="1" description="新的登录流程，风险提示、结算单、保证金中心在登录成功后展示，1 是，0或空，否" />
+        <item name="isNewRequestContractList" value="1" description="新的拉取码表流程，1 是，0或空，否" />
+        <item name="isRequestContractListShortParas" value="1" description="拉取码表简短参数，1 传1，0或空，传1|2|6" />
+        <item name="isCapitalCalculationOptimize" value="1" description="下单页面资金计算优化，1是，0或空，否" />
+    </catalog>
+    
+</system>
